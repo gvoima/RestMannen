@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.listen(80, () => {
- console.log("port:3000");
+ console.log("port:80");
 });
 
 app.get("/mannen", (req, res, next) => {
