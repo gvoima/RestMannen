@@ -1,8 +1,9 @@
 var express = require("express");
 var app = express();
 
-app.listen(80, () => {
- console.log("port:80");
+// can't run ports under 1024 on netlify (for root reasons)
+app.listen(3000, () => {
+ console.log("port:3000");
 });
 
 app.get("/mannen", (req, res, next) => {
