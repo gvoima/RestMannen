@@ -13,9 +13,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gvoima/RestMannen.git"
-  }
+  },
 
   "dependencies": {
     "express": "^4.17.1"
-  },
+  }
 }
